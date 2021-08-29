@@ -2,19 +2,14 @@
 const app = Vue.createApp({
     data() {
         return {
-            courseGoalA: 'Learn vue',
-            courseGoalB: 'Master vue',
+            automotiveNav: 'Automotive',
+            residentialNav: 'Residential',
+            commercialNav: 'Commercial',
             vueLink: 'https://vuejs.org/',
             email: 'jongudenzi@gmail.com'
         };
     },
-    methods: {
-submitEmail(){
-
-},
-
-        
-    }
+  
 });
 
-app.mount('#user-goal');
+app.mount('#navigation');
