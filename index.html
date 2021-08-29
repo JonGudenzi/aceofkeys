@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ace of Keys</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://unpkg.com/vue@next" defer></script>
-    <script src="app.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <h1>AAA ACE LOCK AND KEY</h1>
-    </header>
-<!-- //////////vue////////////// -->
-    <nav id="navigation">
-        <button>{{ automotiveNav }}</button>
-          <button>{{ residentialNav }}</button>
-          <button>{{ commercialNav }}</button>
-</nav>
 
-<div id="emergency">
-  <h1>
-    24 HOUR EMERGENCY LOCKOUT SERVICE
-  </h1>
-  <h1>
-    CALL US AT 321-431-1879
-  </h1>
-</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Ace of Keys</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/vue@next" defer></script>
+  <script src="app.js" defer></script>
+</head>
 
-<!-- ////////vue end////////// -->
+<body>
+  <header>
+    <h1>AAA ACE LOCK AND KEY</h1>
+  </header>
+  <!-- //////////vue////////////// -->
+  <nav id="navigation">
+    <button>{{ automotiveNav }}</button>
+    <button>{{ residentialNav }}</button>
+    <button>{{ commercialNav }}</button>
+  </nav>
 
-<form action="https://formsubmit.co/jongudenzi@gmail.com" method="POST">
-  <input type="text" name="name" placeholder="Name" required>
-  <br>
-  <input type="email" name="email" placeholder="Email" required>
-  <br>
-  <br>
-  <input id="messageBox" type="message" name="message" placeholder="Message" required>
-  <br>
-  <button type="submit">Send</button>
-</form>
+  <section class="container">
+
+    <div class="about">
+      <h1>
+        AAA Ace Lock and Key
+      </h1>
+      <p>
+        Since 2006, AAA Ace Locksmith Services has offered fast, dependable, quality service at an affordable price. Don't be fooled by out of town Call Centers / Lead Generating Services. Speak directly with a qualified local Locksmith at 321-431-1879
+      </p>
+    </div>
+
+    <div class="emergency">
+      <h1>
+        24 HOUR EMERGENCY LOCKOUT SERVICE
+      </h1>
+      <h1>
+        CALL US AT 321-431-1879
+      </h1>
+    </div>
+  
+  </section>
+
+  <!-- ////////vue end////////// -->
+
+  <form action="https://formsubmit.co/jongudenzi@gmail.com" method="POST">
+    <p>Email Us</p>
+    <input type="text" name="name" placeholder="Name" required>
+    <br>
+    <input type="email" name="email" placeholder="Email" required>
+    <br>
+    <br>
+    <input id="messageBox" type="message" name="message" placeholder="Message" required>
+    <br>
+    <button type="submit">Send</button>
+  </form>
 
 
 
-  </body>
+</body>
+
 </html>

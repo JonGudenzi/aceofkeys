@@ -8,7 +8,7 @@
   
   body {
     margin: 0;
-    background-image: linear-gradient(rgb(148, 212, 202), rgb(107, 170, 199));
+    background-image: linear-gradient(rgb(162, 230, 220), rgb(145, 192, 242));
   }
   
   header {
@@ -144,19 +144,45 @@
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
   }
 
-  #emergency{
+.container {
+  display: flex;
+  max-width: 90%;
+    margin: 3rem auto;
+    justify-content: space-between;
+}
+
+
+
+  .about{
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     margin: 1rem auto;
+    max-width: 45% ;
     border-radius: 5px;
     padding: 1rem;
     text-align: center;
-    width: 60%;
-    max-width: 40rem;
-    display: table;
-    background-color: #abebce;
+    
+    /* max-width: 40rem; */
+    
+    background-color: white;
+    
   }
 
-  
+  .emergency{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: 1rem auto;
+    max-width: 45% ;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    /* max-width: 40rem; */
+    background-color: #abebce;
+    
+  }
+
+  .emergency h1{
+    font-size: 40px;
+    color: rgb(218, 94, 94);
+  }
   
   form{
     margin-left: 50px;
