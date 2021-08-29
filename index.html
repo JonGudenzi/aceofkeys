@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ace of Keys</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Ace of Keys</h1>
+    </header>
+<!-- //////////vue////////////// -->
+    <nav id="user-goal">
+      <button> {{ outputGoal() }}</button>
+      <button>Learn more</button>
+        <button>{{ courseGoalA }}</button>
+          <button>{{ courseGoalB }}</button>
+</nav>
+
+<!-- ////////vue end////////// -->
+
+<form action="https://formsubmit.co/jongudenzi@gmail.com" method="POST">
+  <input type="text" name="name" placeholder="Name" required>
+  <br>
+  <input type="email" name="email" placeholder="Email" required>
+  <br>
+  <br>
+  <input id="messageBox" type="message" name="message" placeholder="Message" required>
+  <br>
+  <button type="submit">Send</button>
+</form>
+
+
+
+  </body>
+</html>
