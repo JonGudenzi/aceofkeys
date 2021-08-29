@@ -25,7 +25,6 @@
   #navigation {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     margin: 3rem auto;
-    
     border-radius: 5px;
     padding: 1rem;
     text-align: center;
@@ -136,12 +135,38 @@
     border-color: #83ee63;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
   }
+
+  #emergency{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: 3rem auto;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    width: 60%;
+    max-width: 40rem;
+    
+    background-color: #abebce;
+  }
+
+  #emergency h1{
+   
+  }
   
   form{
     margin-left: 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: 3rem auto;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    width: 60%;
+    max-width: 40rem;
+    
+    background-color: #abebce;
   }
 
   #messageBox{
     height: 100px;
     width: 200px;
+    
   }

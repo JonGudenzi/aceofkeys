@@ -5,8 +5,7 @@ const app = Vue.createApp({
             automotiveNav: 'Automotive',
             residentialNav: 'Residential',
             commercialNav: 'Commercial',
-            vueLink: 'https://vuejs.org/',
-            email: 'jongudenzi@gmail.com'
+            vueLink: 'https://vuejs.org/'
         };
     },
   
